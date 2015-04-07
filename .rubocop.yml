@@ -1,0 +1,13 @@
+AllCops:
+  RunRailsCops: true
+
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+    - 'spec/**/*'
+    - 'Guardfile'
+    - 'Rakefile'
+
+Style/Documentation:
+  Enabled: false

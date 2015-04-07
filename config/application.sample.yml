@@ -1,0 +1,13 @@
+# For databases that are not sqlite
+DATABASE_HOST:
+DATABASE_USER:
+DATABASE_PASSWORD:
+
+development:
+  DATABASE_NAME: db/development.sqlite3
+
+test:
+  DATABASE_NAME: db/test.sqlite3
+
+production:
+  DATABASE_NAME: db/production.sqlite3
